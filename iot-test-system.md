@@ -139,10 +139,10 @@ We should provide a portal to manage the existing hardware:
 
 Nightly test run every nightly, against cleam virtual machines, cross win, linux and osx platforms. they're configured at https://mseng.visualstudio.com/VSIoT/_apps/hub/ms.vss-releaseManagement-web.hub-explorer?definitionId=0&_a=releases.
 
-nightly tests steps:
-1. start clean virtual machine
-2. install git, nodejs on virtual machine
-3. run tests on virtual machine.
+### nightly tests steps
+- start clean virtual machine
+- install git, nodejs on virtual machine
+- run tests on virtual machine
 
 nightly test result will send out in email with title "[vsciot-nightly-ubuntu/mac/win]", sample is "[vsciot-nightly-ubuntu][SUCCESS] Run Report #71 [Passrate:100.0 %]"
 test run during windows nightly including raspberry pi test and feather m0 wifi tests to broader test coverage.
