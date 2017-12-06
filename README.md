@@ -2,6 +2,12 @@
 
 This TodoList app is an Azure Java application. It provides end-to-end CRUD operation to todo list item from front-end AngularJS code. Behind the scene, todo list item data store is [Azure CosmosDB DocumentDB](https://docs.microsoft.com/en-us/azure/cosmos-db/documentdb-introduction). Credentials of Azure Cosmos DB is stored as [Azure Key Vault Secrets](https://docs.microsoft.com/en-us/rest/api/keyvault/about-keys--secrets-and-certificates#BKMK_WorkingWithSecrets). This application uses [Azure CosmosDB DocumentDB Spring Boot Starter](https://github.com/Microsoft/azure-spring-boot/tree/master/azure-starters/azure-documentdb-spring-boot-starter), [Azure Key Vault Secrets Spring Boot Starter](https://github.com/Microsoft/azure-spring-boot/tree/master/azure-starters/azure-keyvault-secrets-spring-boot-starter) and AngularJS to interact with Azure. This sample application provides several deployment options to deploy to Azure, pls see deployment section below. With Azure support in Spring Starters, maven plugins and Eclipse/IntelliJ plugins, Azure Java application development and deployment is effortless now.
 
+- Run ansible from Visual Studio Code  
+  - From Terminal.    
+    - On Windows, run ansible inside docker.    
+    - On Non-windows platform, provide option to run ansible from docker or from local ansible installation.  
+  - From [Cloud Shell](https://azure.microsoft.com/en-us/features/cloud-shell/).
+     Run ansible from cloud shell
 
 ## TOC
 
