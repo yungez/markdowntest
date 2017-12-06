@@ -7,7 +7,7 @@ This TodoList app is an Azure Java application. It provides end-to-end CRUD oper
     - On Windows, run ansible inside docker.    
     - On Non-windows platform, provide option to run ansible from docker or from local ansible installation.  
   - From [Cloud Shell](https://azure.microsoft.com/en-us/features/cloud-shell/).
-     Run ansible from cloud shell
+      Run ansible from cloud shell
 
 ## TOC
 
